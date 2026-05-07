@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="Reasoning Audit. Find why your AI agent fails. 48 hours, $49." width="100%">
+  <img src="assets/hero.svg?v=2" alt="Reasoning Audit. Find why your AI agent fails. 48 hours, $49." width="100%">
 </p>
 
 <p align="center">
@@ -12,13 +12,13 @@
 
 > Your AI agent fails silently. Find out why in **48 hours, $49**.
 
-Send your agent prompts, code, and one example failure. You get back a 20 to 30 minute Loom walkthrough plus a 2-page Markdown report identifying your top three failure modes with concrete fixes.
+Send your agent prompts, code, and one example failure. You get back a 20 to 30 minute Google Meet walkthrough plus a 2-page Markdown report identifying your top three failure modes with concrete fixes.
 
 **Refund if no fix lands inside 14 days.**
 
-📩 [**Book the audit, $49**](mailto:rain.singlesource@gmail.com?subject=Reasoning%20Audit%20booking&body=Hi%20Rainier%2C%20I%27d%20like%20to%20book%20the%20audit.%20Please%20send%20payment%20instructions%20and%20the%20intake%20checklist.)
+📩 [**Book the audit, $49**](mailto:info@singlesource.co.za?subject=Reasoning%20Audit%20booking&body=Hi%20Rainier%2C%20I%27d%20like%20to%20book%20the%20audit.%20Please%20send%20payment%20instructions%20and%20the%20intake%20checklist.)
 
-5 spots per week. Async, no calls.
+5 spots per week.
 
 ---
 
@@ -35,10 +35,10 @@ These are the artifacts. Read them before you book.
 
 ```mermaid
 flowchart LR
-    A[Buyer emails<br/>rain.singlesource@gmail.com]:::buyer --> B[Pay $49]:::pay
+    A[Buyer emails<br/>info@singlesource.co.za]:::buyer --> B[Pay $49]:::pay
     B --> C[Send intake<br/>prompts + 1 failure]:::intake
-    C --> D[I review<br/>48 hours async]:::work
-    D --> E[Loom + Report<br/>+ Contract stub]:::deliver
+    C --> D[I review<br/>48 hours]:::work
+    D --> E[Google Meet + Report<br/>+ Contract stub]:::deliver
     E --> F{Fix lands<br/>in 14 days?}:::check
     F -->|Yes| G[Done]:::win
     F -->|No| H[Full refund]:::refund
@@ -67,8 +67,8 @@ Rainier Potgieter, maintainer of [LOGIC.md](https://github.com/SingularityAI-Dev
 
 ## What you get
 
-### 1. Loom walkthrough (20 to 30 min)
-I review your agent prompts, code, and example failures. I name the failure modes on camera so you can hand the recording to your team.
+### 1. Google Meet walkthrough (20 to 30 min)
+We walk through your agent prompts, code, and example failures together. I name the failure modes live so you can ask follow-ups in the moment. Recording sent to you afterward.
 
 ### 2. Markdown report (1 to 2 pages)
 Top three failure modes ranked. Each comes with a fix recommendation and code or contract examples you can apply this week. See [examples/sample-audit.md](examples/sample-audit.md) for the real format.
@@ -133,12 +133,12 @@ Yes. Send yours with the intake.
 **How it runs (the details)**
 1. Email to book. Receive intake checklist within 5 minutes.
 2. You send: agent prompts, one or two example failures, repo link or relevant code excerpt.
-3. I deliver inside 48 hours of intake. Async, no calls.
+3. We schedule a Google Meet inside 48 hours of intake. Recording and report sent after.
 
 ---
 
 ## Book
 
-Email **rain.singlesource@gmail.com** with subject "Reasoning Audit booking" and I send payment instructions plus the intake checklist.
+Email **info@singlesource.co.za** with subject "Reasoning Audit booking" and I send payment instructions plus the intake checklist.
 
 5 spots per week. When the week's spots fill, listing closes until next Monday.
