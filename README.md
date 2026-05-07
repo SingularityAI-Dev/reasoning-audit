@@ -1,20 +1,33 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Reasoning_Audit-%2497-1a1a2e?style=for-the-badge&labelColor=0f0f1e" alt="Reasoning Audit, $97">
+  <img src="assets/hero.svg" alt="Reasoning Audit. Find why your AI agent fails. 48 hours, $49." width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Reasoning_Audit-%2449-1a1a2e?style=for-the-badge&labelColor=0f0f1e" alt="Reasoning Audit, $49">
   <img src="https://img.shields.io/badge/Turnaround-48_hours-d97757?style=for-the-badge&labelColor=0f0f1e" alt="48 hour turnaround">
-  <img src="https://img.shields.io/badge/Refund-If_no_fix_in_14d-2d6a4f?style=for-the-badge&labelColor=0f0f1e" alt="Refund policy">
+  <img src="https://img.shields.io/badge/Refund-If_no_fix_in_14d-2d6a4f?style=for-the-badge&labelColor=0f0f1e" alt="Refund if no fix in 14 days">
 </p>
 
 # Reasoning Audit
 
-> Your AI agent fails silently. Find out why in **48 hours, $97**.
+> Your AI agent fails silently. Find out why in **48 hours, $49**.
 
 Send your agent prompts, code, and one example failure. You get back a 20 to 30 minute Loom walkthrough plus a 2-page Markdown report identifying your top three failure modes with concrete fixes.
 
 **Refund if no fix lands inside 14 days.**
 
-📩 [**Book the audit, $97**](mailto:rain.singlesource@gmail.com?subject=Reasoning%20Audit%20booking&body=Hi%20Rainier%2C%20I%27d%20like%20to%20book%20the%20audit.%20Please%20send%20payment%20instructions%20and%20the%20intake%20checklist.)
+📩 [**Book the audit, $49**](mailto:rain.singlesource@gmail.com?subject=Reasoning%20Audit%20booking&body=Hi%20Rainier%2C%20I%27d%20like%20to%20book%20the%20audit.%20Please%20send%20payment%20instructions%20and%20the%20intake%20checklist.)
 
 5 spots per week. Async, no calls.
+
+---
+
+## See exactly what you are paying for
+
+- **[examples/sample-audit.md](examples/sample-audit.md)** — anonymised real audit deliverable. The actual format and depth you receive.
+- **[examples/silent-tool-call-contract.md](examples/silent-tool-call-contract.md)** — proof of concept LOGIC.md contract that catches the single most common failure mode I find in production agents. Includes vitest fixtures.
+
+These are the artifacts. Read them before you book.
 
 ---
 
@@ -22,7 +35,7 @@ Send your agent prompts, code, and one example failure. You get back a 20 to 30 
 
 ```mermaid
 flowchart LR
-    A[Buyer emails<br/>rain.singlesource@gmail.com]:::buyer --> B[Pay $97]:::pay
+    A[Buyer emails<br/>rain.singlesource@gmail.com]:::buyer --> B[Pay $49]:::pay
     B --> C[Send intake<br/>prompts + 1 failure]:::intake
     C --> D[I review<br/>48 hours async]:::work
     D --> E[Loom + Report<br/>+ Contract stub]:::deliver
@@ -58,10 +71,10 @@ Rainier Potgieter, maintainer of [LOGIC.md](https://github.com/SingularityAI-Dev
 I review your agent prompts, code, and example failures. I name the failure modes on camera so you can hand the recording to your team.
 
 ### 2. Markdown report (1 to 2 pages)
-Top three failure modes ranked. Each comes with a fix recommendation and code or contract examples you can apply this week.
+Top three failure modes ranked. Each comes with a fix recommendation and code or contract examples you can apply this week. See [examples/sample-audit.md](examples/sample-audit.md) for the real format.
 
 ### 3. LOGIC.md contract stub (if applicable)
-If your stack benefits, I write a reasoning contract that makes the top failure mode structurally impossible.
+If your stack benefits, I write a reasoning contract that makes the top failure mode structurally impossible. See [examples/silent-tool-call-contract.md](examples/silent-tool-call-contract.md) for the real format.
 
 ---
 
@@ -103,13 +116,10 @@ If your team is in those numbers, this audit is for you.
 
 ---
 
-## How it runs (the details)
-
-1. Email to book. Receive intake checklist within 5 minutes.
-2. You send: agent prompts, one or two example failures, repo link or relevant code excerpt.
-3. I deliver inside 48 hours of intake. Async, no calls. NDA on request.
-
 ## FAQ
+
+**Why $49 when Claude Code Pro is $20 per month?**
+Claude Code is brilliant for pair-programming on your own code. This audit gives you something different: external pattern-matching from someone who has shipped LOGIC.md (the OSS reasoning layer for AI agents) and reviewed dozens of agent failures. The same 5 failure modes recur across every team. I name yours in 5 minutes where Claude Code might miss them or take an hour. Two and a half months of Claude Code Pro for one shipped fix you would not have caught yourself.
 
 **What if my framework is exotic?**
 I cover vanilla OpenAI/Anthropic API, LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, Mastra, Vercel AI SDK, and custom orchestration. If your stack is genuinely too far outside that surface and I cannot help, full refund inside 24 hours of intake.
@@ -120,8 +130,10 @@ Full refund if no fix recommendation lands inside 14 days of payment. Email and 
 **Will you sign an NDA?**
 Yes. Send yours with the intake.
 
-**Why $97? Why not more?**
-Below the friction threshold for a senior engineer's approval ceiling. Launch price. Goes up once I have testimonials.
+**How it runs (the details)**
+1. Email to book. Receive intake checklist within 5 minutes.
+2. You send: agent prompts, one or two example failures, repo link or relevant code excerpt.
+3. I deliver inside 48 hours of intake. Async, no calls.
 
 ---
 
