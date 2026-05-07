@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg?v=2" alt="Reasoning Audit. Find why your AI agent fails. 48 hours, $49." width="100%">
-</p>
+  <img src="assets/hero-v2.svg" alt="Reasoning Audit. Find why your AI agent fails. 48 hours, $49." width="100%"></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Reasoning_Audit-%2449-1a1a2e?style=for-the-badge&labelColor=0f0f1e" alt="Reasoning Audit, $49">
